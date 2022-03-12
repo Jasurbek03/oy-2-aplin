@@ -1,0 +1,213 @@
+// =============================== Footer ===========================
+.footer {
+  background-image: url(../../images/bcg-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__inner {
+    padding-top: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
+    @include flex(start, space-between);
+    position: relative;
+  }
+
+  &__element {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: -81px;
+    left: 43%;
+    background-image: url(../../images/bcg-footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    @include flex(center, center);
+  }
+
+  &__element-inner {
+    width: 115px;
+    height: 115px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  &__logo-list {
+    @include flex(start, start);
+  }
+
+  &__logo {
+    display: inline-block;
+    margin-right: 149px;
+    transition: all 0.5s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__logo-img {
+    display: block;
+    width: 162px;
+    height: 31px;
+  }
+
+  &__about-box {
+    @include flex(start, start);
+  }
+
+  &__explore {
+    margin-right: 84px;
+  }
+
+  &__explore-heading {
+    margin-bottom: 22px;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #ffffff;
+  }
+
+  &__explore-list {
+    @extend %list-nostyle;
+  }
+
+  &__explore-item ~ &__explore-item {
+    margin-top: 20px;
+  }
+
+  &__explore-link {
+    @include linkStyle(none, 18px, 149.8%, #ffffff);
+    &:hover {
+      @include linkStyle(underline, 18px, 149.8%, #ff0000);
+    }
+  }
+
+  &__recuorces {
+    margin-right: 84px;
+  }
+
+  &__recuorces-heading {
+    margin-bottom: 22px;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #ffffff;
+  }
+
+  &__recuorces-list {
+    @extend %list-nostyle;
+  }
+
+  &__recuorces-item ~ &__recuorces-item {
+    margin-top: 20px;
+  }
+
+  &__recuorces-link {
+    @include linkStyle(none, 18px, 149.8%, #ffffff);
+    &:hover {
+      @include linkStyle(underline, 18px, 149.8%, #ffe600);
+      font-weight: bold;
+    }
+  }
+
+  &__company-heading {
+    margin-bottom: 22px;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #ffffff;
+  }
+
+  &__company-list {
+    @extend %list-nostyle;
+  }
+
+  &__company-item ~ &__company-item {
+    margin-top: 20px;
+  }
+
+  &__company-link {
+    @include linkStyle(none, 18px, 149.8%, #ffffff);
+    &:hover {
+      @include linkStyle(none, 18px, 149.8%, #b3ff00);
+      font-weight: bold;
+    }
+  }
+
+  &__socialnetworks {
+    text-align: right;
+    margin-bottom: 280px;
+  }
+
+  &__socialnetworks-list {
+    @extend %list-nostyle;
+    @include flex(center, flex-end);
+    margin-bottom: 15px;
+  }
+
+  &__socialnetworks-item ~ &__socialnetworks-item {
+    margin-left: 32px;
+  }
+
+  &__socialnetworks-link {
+    display: inline-block;
+    transition: all 0.5s ease;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+
+  &__socialnetworks-img {
+    display: block;
+  }
+
+  &__socialnetworks-heading {
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #ffffff;
+    margin-bottom: 11px;
+  }
+
+  &__socialnetworks-text {
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #ffffff;
+  }
+
+  &__textbox {
+    width: 410px;
+    height: 56px;
+    position: absolute;
+    background-color: #ffffff;
+    bottom: 124px;
+    left: 33%;
+    @include flex(center, center);
+  }
+
+  &__textbox-text {
+    text-transform: uppercase;
+    font-family: "Paytone One";
+    font-size: 28px;
+    line-height: 39px;
+    color: #000000;
+  }
+
+  &__textbox-img {
+    width: 25px;
+    height: 22px;
+  }
+}
+
+
+.footer-vkontakt {
+  width: 36px;
+  height: 20px;
+}
+
+.footer-twitter {
+  width: 28px;
+  height: 21px;
+}
+
+.footer-facebook {
+  width: 13px;
+  height: 22px;
+}
