@@ -369,6 +369,7 @@ template {
 }
 
 body {
+  background-color: antiquewhite;
   font-family: "Arial", sans-serif;
 }
 
@@ -467,7 +468,7 @@ button {
 }
 
 .header-wrap {
-  background-image: url(../../images/bcg-header.jpg);
+  background-image: url("../../images/bcg-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -488,7 +489,7 @@ button {
 }
 
 .site-main {
-  background-image: url(/images/bcg-main.png);
+  background-image: url("../../images/bcg-main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -805,7 +806,7 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(../../images/bcg-marketing.png);
+  background-image: url("../../images/bcg-marketing.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -902,7 +903,7 @@ button {
   margin-left: 37px;
   width: 24px;
   height: 24px;
-  background-image: url(../../images/icons-file-type-clojure.png);
+  background-image: url("../../images/icons-file-type-clojure.png");
   background-repeat: no-repeat;
   background-size: 24px 24px;
   content: "";
@@ -915,7 +916,7 @@ button {
   margin-left: 37px;
   width: 23px;
   height: 22px;
-  background-image: url(../../images/icons-cljs.png);
+  background-image: url("../../images/icons-cljs.png");
   background-repeat: no-repeat;
   background-size: 23px 22px;
   content: "";
@@ -1021,7 +1022,7 @@ button {
 }
 
 .footer {
-  background-image: url(../../images/bcg-footer.jpg);
+  background-image: url("../../images/bcg-footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1049,7 +1050,7 @@ button {
   position: absolute;
   top: -81px;
   left: 43%;
-  background-image: url(../../images/bcg-footer.png);
+  background-image: url("../../images/bcg-footer.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
