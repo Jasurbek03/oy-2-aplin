@@ -249,7 +249,7 @@
     margin-right: 70px;
     padding: 14px 16px 23px 17px;
     @include flex(flex-start, space-between);
-    background-image: url(../../images/bcg-marketing.png);
+    background-image: url("../../images/bcg-marketing.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -339,7 +339,7 @@
   margin-left: 37px;
   width: 24px;
   height: 24px;
-  background-image: url(../../images/icons-file-type-clojure.png);
+  background-image: url("../../images/icons-file-type-clojure.png");
   background-repeat: no-repeat;
   background-size: 24px 24px;
   content: "";
@@ -352,7 +352,7 @@
   margin-left: 37px;
   width: 23px;
   height: 22px;
-  background-image: url(../../images/icons-cljs.png);
+  background-image: url("../../images/icons-cljs.png");
   background-repeat: no-repeat;
   background-size: 23px 22px;
   content: "";
