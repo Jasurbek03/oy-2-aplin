@@ -188,7 +188,7 @@
     margin-right: 10px;
     margin-left: 6px;
     width: 266px;
-    border-top: 1px dashed rgb(255, 255, 255);
+    border-top: 3px dashed rgb(255, 255, 255);
   }
 
   &__comlink {
@@ -230,7 +230,7 @@
   }
 
   &__top-link {
-    @include flex(center, space-between);
+    @include flex(end, space-between);
     @include linkStyle(none, 16px, 149.8%, #2d2828);
     background: url(.jpg), #C4C4C4;
     border-radius: 50px;
